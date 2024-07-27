@@ -18,7 +18,7 @@
             <input class= "btn-submit"type="submit" value="calculate">
         </form>
         <div class="cal">
-            <h1><?php echo "$textCal = $cal"; ?></h1>
+            <h1><?php echo "$textCal$cal"; ?></h1>
         </div>
         
  </div>

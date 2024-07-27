@@ -1,5 +1,6 @@
 <?php
-$cal = 0;
+$cal = "";
+$textCal ="Let's calulate it!!";
 
 //isset = check ว่ามีค่าเข้ามาหรือยัง floatval = ทำให้เป็นตัวเลข
 if (isset($_GET['upper']) && isset($_GET['lower']) && isset($_GET['op'])) {
@@ -7,7 +8,7 @@ if (isset($_GET['upper']) && isset($_GET['lower']) && isset($_GET['op'])) {
     $lowerNumber = floatval($_GET["lower"]);
     $value = $_GET["op"];
     $cal = myCal($upperNumber, $lowerNumber, $value);
-    $textCal = "$upperNumber $value $lowerNumber";
+    $textCal = "$upperNumber $value $lowerNumber = ";
 } 
 
 function myCal($upperNumber, $lowerNumber, $value){
