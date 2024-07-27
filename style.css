@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+body{
+    box-sizing: border-box;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(nj.jpg);
+}
+input, select{
+    border: none;
+}
+.main{
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 20px;
+    text-align: center;
+    padding: 100px;
+}
+
+.type{
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 1px solid rgb(129, 129, 129);
+    margin: 10px;
+    padding: 30px;
+    font-size: 60px;
+    border-radius: 25px;
+}
+.sel {
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 1px solid rgb(129, 129, 129);
+    border-radius: 25px;
+    margin: 10px;
+    padding: 30px;
+    width: 30%;
+    font-size: 60px;
+}
+.sel option{
+    text-align: center;
+}
+
+.btn-submit{
+    border: 1px solid rgb(129, 129, 129);
+    margin: 10px;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0.6);
+    
+}
+.btn-submit:hover{
+    cursor: pointer;
+    background-color: white;
+
+}
+.cal{
+    margin-top: 40px;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+.cal h1{
+    text-align: center;
+}
+@media screen and (max-width: 870px){
+    .main{
+        padding: 20px;
+    }
+    .type{
+        font-size: 20px;
+    }
+    .sel {
+        font-size: 20px;
+    }
+    .cal{
+        font-size: 20px;
+    }
+}
+    
